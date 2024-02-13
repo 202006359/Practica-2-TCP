@@ -43,11 +43,15 @@ Una vez que hayas ejecutado ambos códigos, podrás interactuar con el servicio 
 
 ## Capturas de pantalla
 ¡Es fundamental tener en cuenta las mayúsculas y minúsculas a la hora de escribir los comandos!
+
 ![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/a2cb1ba7-2994-4458-bad2-25c5de63fe56)
 
-![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/9991a2bb-b594-49ae-bb0d-b6d247523dd5)
-![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/90e89efa-4b00-4e78-b079-8e9d307e57fd)
 ![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/03ab05fd-c0e8-47dd-8a78-ebdbd91776e2)
+
+![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/7ce24746-e207-4436-b575-58f62f5554bf)
+
+
+
 
 
 

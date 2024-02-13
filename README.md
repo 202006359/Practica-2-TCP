@@ -26,7 +26,7 @@ En esta práctica se ha desarrollado en Python un módulo para la implementació
 2. Clona el repositorio con el siguiente comando:
 
     ```
-    git clone https://github.com/202006359/Practica-1-UDP.git
+    git clone https://github.com/202006359/Practica-2-TCP.git
     ```
 
 3. Inicializa el servidor Jupyter Notebook desde Anaconda.

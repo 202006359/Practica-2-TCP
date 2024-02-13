@@ -48,7 +48,11 @@ Una vez que hayas ejecutado ambos códigos, podrás interactuar con el servicio 
 
 ![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/03ab05fd-c0e8-47dd-8a78-ebdbd91776e2)
 
-![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/7ce24746-e207-4436-b575-58f62f5554bf)
+![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/f1371a85-ba41-4aac-8654-08b6863217c2)
+
+![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/3b95a1c3-5e24-4827-8633-13e458eb41cb)
+
+
 
 
 

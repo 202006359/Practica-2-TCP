@@ -1,1 +1,10 @@
 luis:luis
+ivan:ivan
+hola:hola
+a:a
+q:q
+w:w
+DS:DS
+r:r
+o:o
+lola:lola

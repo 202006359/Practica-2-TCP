@@ -33,16 +33,23 @@ En esta práctica se ha desarrollado en Python un módulo para la implementació
 <img width="249" alt="image" src="https://github.com/202006359/Practica-1-UDP/assets/113789409/8347b6ac-c6fb-42b4-8620-f8b7634689c4">
 
   
-5. Esto abrirá una ventana del navegador web con el panel de control de Jupyter Notebook. Desde aquí, dirigite a la proyecto Practica-1-UDP y picha en la carpeta "Entregable". A continuación, abre el archivo "servidor.ipynb" y "cliente.ipynb".
+4. Esto abrirá una ventana del navegador web con el panel de control de Jupyter Notebook. Desde aquí, dirigite a la proyecto Practica-1-UDP y picha en la carpeta "Entregable". A continuación, abre el archivo "servidor.ipynb" y "cliente.ipynb".
 
-6. Ejecuta el código del servidor en Jupyter Notebook ejecutando todas las celdas de código en "servidor.ipynb".
+5. Ejecuta el código del servidor en Jupyter Notebook ejecutando todas las celdas de código en "servidor.ipynb".
 
-7. Ejecuta el código del cliente en Jupyter Notebook ejecutando todas las celdas de código en "cliente.ipynb".
+6. Ejecuta el código del cliente en Jupyter Notebook ejecutando todas las celdas de código en "cliente.ipynb".
 
 Una vez que hayas ejecutado ambos códigos, podrás interactuar con el servicio de login. 
 
 ## Capturas de pantalla
 ¡Es fundamental tener en cuenta las mayúsculas y minúsculas a la hora de escribir los comandos!
+![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/a2cb1ba7-2994-4458-bad2-25c5de63fe56)
+
+![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/9991a2bb-b594-49ae-bb0d-b6d247523dd5)
+![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/90e89efa-4b00-4e78-b079-8e9d307e57fd)
+![image](https://github.com/202006359/Practica-2-TCP/assets/52907821/03ab05fd-c0e8-47dd-8a78-ebdbd91776e2)
+
+
 
 
 

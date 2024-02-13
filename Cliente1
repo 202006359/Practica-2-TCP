@@ -1,0 +1,65 @@
+import socket
+
+# Configuración del cliente
+server_address = ('localhost', 6780)
+
+# Mensaje a enviar al servidor
+# Usamos un mensaje inicial, por ejemplo, para hacer login o cualquier otra operación
+print("Antes de establecer conexión con el servidor le queríamos recordar que")
+print("este servidor cuenta con los siguientes comandos:\n\n")
+
+print("register (usuario) (contraseña): registra un usuario.\n")
+print("login (usuario) (contraseña): hace login al usuario.\n")
+print("testconnection (usuario) (contraseña) : Se indica si sigue conectado al servidor.\n")
+print("exit (usuario) (contraseña): cierra la sesión del usuario usuario\n\n")
+
+
+# Crear un socket TCP/
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+comando =input("Escriba el comando que quiera utilizar:")
+usuario =input("Usuario: ")
+contraseña=input("Contraseña: ")
+message=comando+" "+usuario+" "+contraseña
+print("\n\n")
+try:
+    # Conectar al servidor
+    sock.connect(server_address)
+    # Enviar el mensaje inicial
+    sock.sendall(message.encode())
+    # Mantener la conexión abierta, escuchando las respuestas del servidor
+    while True:
+        # Recibir la respuesta del servidor
+        response = sock.recv(1024)  # Ajusta el tamaño de búfer según sea necesario
+        
+        print("Respuesta del servidor:", response.decode())
+        if (response.decode().split(' ')[0]=='Desconectado.' ):
+            break  # Si no se recibe respuesta, se asume que el servidor cerró la conexión
+        elif(response.decode().split(' ')[0]=='Registro'):
+            print("Se ha registrado su usuario con éxito,\n")
+            comando =input("Escriba el comando que quiera utilizar:")
+            usuario =input("Usuario: ")
+            contraseña=input("Contraseña: ")
+            newmessage=comando+" "+usuario+" "+contraseña
+            print("\n\n")
+            sock.sendall(newmessage.encode())
+        elif(response.decode().split(' ')[0]=='Login' ):
+            print("Se ha hecho login su usuario con éxito.\n")
+            comando =input("Escriba el comando que quiera utilizar:")
+            usuario =input("Usuario: ")
+            contraseña=input("Contraseña: ")
+            newmessage=comando+" "+usuario+" "+contraseña
+            print("\n\n")
+            sock.sendall(newmessage.encode())
+        else:
+            comando =input("Escriba el comando que quiera utilizar:")
+            usuario =input("Usuario: ")
+            contraseña=input("Contraseña: ")
+            newmessage=comando+" "+usuario+" "+contraseña
+            print("\n\n")
+            sock.sendall(newmessage.encode())
+            
+        if not response:
+            break  # Si no se recibe respuesta, se asume que el servidor cerró la conexión   
+finally:
+    # Cerrar conexión
+    sock.close()
